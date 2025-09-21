@@ -22,17 +22,6 @@ This repository contains multiple CI/CD deployment scenarios for containerized a
 
 
 ---
-
-## 1️⃣ Deploy Python Flask App to AWS EKS
-
-**📂 Path:** `flask-eks-cicd/`
-
-### 🔧 Features
-- Flask app containerized with Docker
-- Terraform provisioning for EKS, VPC, and ECR
-- Jenkins pipeline for build, test, deploy
-- Kubernetes manifests for deployment
-
 ### 📄 Files
 - `main.tf`, `eks.tf`, `ecr.tf` – Terraform configs
 - `Dockerfile` – Flask app container
@@ -85,7 +74,7 @@ Each folder includes:
 - Jenkinsfile for CI/CD automation
 - Kubernetes/Helm configs for deployment
 
-Want help writing the actual Jenkinsfile or Terraform modules for one of these? I can dive in next.
+
 
 
 
