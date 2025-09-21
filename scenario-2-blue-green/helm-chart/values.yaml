@@ -1,0 +1,6 @@
+replicaCount: 2
+image:
+  repository: <ECR_URI>/node-app
+  tag: latest
+color: blue
+activeColor: blue
