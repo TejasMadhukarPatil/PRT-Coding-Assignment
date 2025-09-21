@@ -37,4 +37,3 @@ Each project folder contains:
 - Kubernetes manifests or Helm charts
 - Setup instructions and rollback strategies
 
-> These examples are designed for learning, prototyping, and adapting to real-world production workflows.
