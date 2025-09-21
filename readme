@@ -1,0 +1,40 @@
+# 🚀 AWS EKS CI/CD Deployment Projects
+
+This repository showcases multiple CI/CD deployment strategies for containerized applications on Amazon EKS. Each project demonstrates infrastructure provisioning with Terraform, containerization with Docker, orchestration with Kubernetes and Helm, and automation using Jenkins pipelines.
+
+## 📦 Projects Included
+
+1. **Python Flask App CI/CD**
+   - Containerized Flask app deployed to EKS using Terraform and Jenkins.
+
+2. **Blue-Green Deployment with Helm**
+   - Node.js app deployed with Helm-based blue-green strategy and Jenkins automation.
+
+3. **Multi-Environment Microservices Pipeline**
+   - Dev, staging, and prod environments managed via Terraform workspaces and Jenkins promotion strategy.
+
+4. **Full-Stack React & Node.js Deployment**
+   - Shared CI/CD pipeline for frontend and backend services with modular infrastructure.
+
+5. **High Availability Deployment with Auto Scaling**
+   - EKS deployment with Horizontal Pod Autoscaler and Cluster Autoscaler for scalable workloads.
+
+## 🛠️ Tech Stack
+
+- **Terraform** – Infrastructure as Code (IaC)
+- **Docker** – Containerization
+- **Kubernetes** – Orchestration on EKS
+- **Helm** – Package management and deployment
+- **Jenkins** – CI/CD automation
+- **AWS EKS & ECR** – Managed Kubernetes and container registry
+
+## 📘 Getting Started
+
+Each project folder contains:
+- Terraform configuration files
+- Dockerfiles for app containerization
+- Jenkinsfile for CI/CD pipeline
+- Kubernetes manifests or Helm charts
+- Setup instructions and rollback strategies
+
+> These examples are designed for learning, prototyping, and adapting to real-world production workflows.
