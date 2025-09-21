@@ -37,3 +37,22 @@ Each project folder contains:
 - Kubernetes manifests or Helm charts
 - Setup instructions and rollback strategies
 
+
+
+
+project-root/
+├── terraform/
+│   ├── main.tf
+│   ├── variables.tf
+│   └── outputs.tf
+├── app/
+│   ├── Dockerfile
+│   └── app.py
+├── k8s/
+│   ├── deployment.yaml
+│   └── service.yaml
+├── helm/
+│   ├── blue/
+│   └── green/
+├── Jenkinsfile
+└── README.md
